@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    color: teal;
+    font-size: 61px;
+}
+
+p{
+    color: aliceblue;
+    flex-wrap: wrap;
+}
+
+img{
+    width: 250px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.flex-row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: darkblue;
+    height: 100vh;
+}
+
+.text{
+    width: 400px;
+    height: 500px;
+}
+
+
+.content{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    width: 250px;
+    margin-left: 80px;
+}
+
+.caption{
+    display: block;
+}

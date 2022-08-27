@@ -1,0 +1,78 @@
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.one{
+    height: 500px;
+    width: 200px;
+    background-color: black;
+    margin-top: 15px;
+}
+
+.two{
+    height: 100px;
+    width: 200px;
+    margin-top: 15px;
+    background-color: yellow;
+}
+
+.three{
+    height: 250px;
+    width: 200px;
+    margin-top: 15px;
+    background-color: pink;
+}
+
+.four{
+    height: 350px;
+    width: 200px;
+    margin-top: 15px;
+    background-color: skyblue;
+}
+
+.five{
+    height: 250px;
+    width: 200px;
+    margin-top: 15px;
+    background-color: yellow;
+}
+
+.six{
+    height: 250px;
+    width: 200px;
+    margin-top: 15px;
+    background-color: yellow;
+}
+
+.seven{
+    height: 85px;
+    width: 200px;
+    margin-top: 15px;
+    background-color: grey;
+}
+
+.eight{
+    height: 515px;
+    width: 200px;
+    margin-top: 15px;
+    background-color: yellow;
+}
+
+.nine{
+    height: 85px;
+    width: 200px;
+    margin-top: 15px;
+    background-color: yellow;
+}
+
+.flex-collumn{
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+}
+.flex-row{
+    display: flex;
+}
+

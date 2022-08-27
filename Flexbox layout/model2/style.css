@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+    padding: 0%;
+}
+
+header{
+    width: 80%;
+    height: 150px;
+    background-color: aquamarine;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+
+nav{
+    background-color: bisque;
+    width: 25%;
+    height: 100vh;
+}
+
+article{
+    background-color:honeydew;
+    height: 800px;
+    width: 70%;
+    z-index: -1;
+}
+
+aside{
+    height: 800px;
+    width: 30%;
+    background-color:yellow;
+}
+
+footer{
+    width: 80%;
+    height: 150px;
+    background-color: lightblue;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.container-two{
+    display: flex;
+    flex-direction:column;
+    width: 100%;
+}
+
+.container-three{
+    display: flex;
+    flex-direction: row;
+}
+

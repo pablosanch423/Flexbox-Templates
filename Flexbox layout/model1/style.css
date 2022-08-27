@@ -1,0 +1,42 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+
+header{
+    width: 100%;
+    height: 20%;
+    background-color: burlywood;    
+    position: absolute;
+}
+
+footer{
+    width: 100%;
+    height: 20%;
+    background-color: burlywood;  
+    position: absolute;
+    clear: both;
+}
+
+.layout, div{
+    display: flex;
+    height: 900px;
+}
+
+.big{
+    hello
+}
+
+@media (max-width: 950px){
+    .layout{
+        flex-direction: column;
+    }
+
+    .big{
+        height: 1800px;
+    }
+
+    footer{
+        height: 30%;
+    }
+}
